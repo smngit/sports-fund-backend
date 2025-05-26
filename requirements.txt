@@ -9,8 +9,10 @@ cycler==0.12.1
 dateutils==0.6.12
 Flask==3.1.1
 flask-cors==6.0.0
+Flask-SQLAlchemy==3.1.1
 fonttools==4.53.1
 frozendict==2.4.4
+greenlet==3.2.2
 gunicorn==23.0.0
 html5lib==1.1
 idna==3.8
@@ -35,6 +37,8 @@ pytz==2024.2
 requests==2.32.3
 six==1.16.0
 soupsieve==2.6
+SQLAlchemy==2.0.41
+typing_extensions==4.13.2
 tzdata==2024.1
 urllib3==2.2.2
 webencodings==0.5.1
