@@ -1,0 +1,13 @@
+name: Keep Backend Warm
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render backend
+        run: curl -s https://sports-fund-backend.onrender.com/api/users || true
